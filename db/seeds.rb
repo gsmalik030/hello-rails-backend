@@ -5,3 +5,21 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+greetings = [
+  "Aslam o Alikum",
+  "Hola",
+  "Hello",
+  "What's up",
+  "How you doing",
+  "Hi",
+  "Salut",
+]
+
+puts "creating Greetings..."
+
+greetings.each do |greet|
+  Message.create!(content: greet)
+end
+
+puts "Greeting created :)"
