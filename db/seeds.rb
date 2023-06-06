@@ -7,19 +7,19 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 greetings = [
-  "Aslam o Alikum",
-  "Hola",
-  "Hello",
+  'Aslam o Alikum',
+  'Hola',
+  'Hello',
   "What's up",
-  "How you doing",
-  "Hi",
-  "Salut",
+  'How you doing',
+  'Hi',
+  'Salut'
 ]
 
-puts "creating Greetings..."
+puts 'creating Greetings...'
 
 greetings.each do |greet|
   Message.create!(content: greet)
 end
 
-puts "Greeting created :)"
+puts 'Greeting created :)'

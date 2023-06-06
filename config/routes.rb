@@ -4,5 +4,5 @@ Rails.application.routes.draw do
       resources :messages, only: [:index]
     end
   end
-  root to: "static#home"
+  root to: 'static#home'
 end
